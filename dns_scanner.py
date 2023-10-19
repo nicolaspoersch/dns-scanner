@@ -5,7 +5,6 @@ from datetime import datetime
 import os
 import time
 
-# Defina o nome da sua ferramenta
 TOOL_NAME = """
   ███████╗███████╗███╗   ██╗██████╗ 
  ██╔════╝██╔════╝████╗  ██║██╔══██╗
@@ -19,7 +18,6 @@ VERSION_INFO = "Version: v1"
 GITHUB_INFO = "GitHub: @nicolaspoersch"
 
 def clear_terminal():
-    # Limpar o terminal com base no sistema operacional
     if os.name == 'nt':
         os.system('cls')
     else:
